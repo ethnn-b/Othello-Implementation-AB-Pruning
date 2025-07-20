@@ -1,8 +1,6 @@
-To create a `README.md` file for the Othello game, we should cover essential aspects like what the project is, how to set it up, how to play, and any relevant technical details.
 
-Here's a suggested `README.md` content:
 
-````markdown
+
 # Othello Game
 
 A classic Othello (Reversi) game implemented in JavaScript, playable in a web browser. This project features both a player vs. player mode and a player vs. AI mode, where the AI uses the Alpha-Beta Pruning algorithm for decision-making.
@@ -19,8 +17,7 @@ A classic Othello (Reversi) game implemented in JavaScript, playable in a web br
     - [Game Logic](#game-logic)
     - [AI Implementation](#ai-implementation)
   - [Setup and Installation](#setup-and-installation)
-  - [Contributing](#contributing)
-  - [License](#license)
+
 
 ## Features
 
