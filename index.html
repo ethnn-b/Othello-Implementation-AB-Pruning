@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Othello Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Othello Game</h1>
+  <div id="controls">
+    <label for="mode">Choose Mode:</label>
+    <select id="mode">
+      <option value="ai" selected>Player vs AI</option>
+      <option value="friend">Player vs Player</option>
+    </select>
+    <button onclick="restartGame()">Restart Game</button>
+  </div>
+  <canvas id="board" width="640" height="640"></canvas>
+  <p id="status"></p>
+  <script src="othello.js"></script>
+</body>
+</html>

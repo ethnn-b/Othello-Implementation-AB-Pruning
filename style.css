@@ -1,0 +1,31 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  background: linear-gradient(#ddeeff, #aaccee);
+  margin: 0;
+  padding: 20px;
+}
+
+canvas {
+  border: 6px solid #333;
+  background-color: #2e8b57;
+  margin-top: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+}
+
+h1 {
+  color: #222;
+  margin-bottom: 10px;
+}
+
+#controls {
+  margin-bottom: 10px;
+}
+
+select, button {
+  font-size: 1rem;
+  padding: 5px 10px;
+  margin-left: 5px;
+  border-radius: 4px;
+  border: 1px solid #888;
+}
